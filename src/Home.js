@@ -44,7 +44,7 @@ function Home() {
            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpngimg.com%2Fuploads%2Fgithub%2Fgithub_PNG80.png&f=1&nofb=1&ipt=6ef0aca8a10bd6b8b58f1e9a2a89fc8fed7a5fd5e4a5a4307762aacdb0f1c476&ipo=images" alt="github" className="logo__github" />
            <p>Don't have an Account? <a href="https://www.google.com/account" className="link">Sign up</a></p>
            <p>Created By: Christian Barbosa</p>
-           <p>BSIT - Student</p>
+           <p className="sub__label">BSIT - Student</p>
         </div>
     </div>
     </div>
