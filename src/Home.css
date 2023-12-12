@@ -1,0 +1,144 @@
+.home{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(to bottom right, red, rgba(255, 166, 0, 0.713), orange);
+}
+.car1{
+    background: red;
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    overflow: hidden;
+}
+.label1{
+    color: white;
+    position: absolute;
+    font-size: 10pc;
+    text-align: center;
+    margin: auto;
+}
+.car1__pic{
+    position: relative;
+    width: 80%;
+    text-align: right;
+    animation: fadeIn 2.5s ease-in-out forwards;
+}
+.car2{
+    background: orange;
+    overflow: hidden;
+    height: 100vh;
+    animation: fadeIn 2.5s ease-in-out forwards;
+}
+.car3{
+    background: linear-gradient(to bottom right, white, rgba(70, 131, 180, 0.653),rgba(70, 131, 180, 0.653), white);
+    color: black;
+    overflow: hidden;
+    height: 100vh;
+    animation: fadeIn 2.5s ease-in-out forwards;
+}
+.label3{
+    color: red;
+}
+.offer{
+    color: white;
+}
+.car4{
+    background: greenyellow;
+    color: black;
+    overflow: hidden;
+    height: 100vh;
+}
+.services{
+    position: relative;
+    width: 100%;
+    height: 200vh;
+    background: purple;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.cs__pic{
+    position: relative;
+    top: 10px;
+    width: 90%;
+    height: 100%;
+    border-radius: 40px;
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+}
+.cs__label{
+    position: relative;
+    text-align: center;
+}
+.contact__us{
+    width: 100%;
+    height: 100vh;
+}
+.cs__container{
+    background: rgba(128, 128, 128, 0.635);
+    color: white;
+    backdrop-filter: blur(5px);
+    height: 450px;
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+    .label1{
+        font-size: 50px;
+    }
+    .offer{
+        font-size: 55px;
+    }
+    .car1{
+        overflow: hidden;
+        height: 25vh;
+    }
+    .car1__pic{
+        width: 100%;
+        opacity: 0;
+        animation: fadeIn 2.5s ease-in-out forwards;
+    }
+    .car2{
+        height: 25vh;
+    }
+    .car3{
+        height: 25vh;
+    }
+    .car4{
+        height: 25vh;
+    }
+    .services{
+        position: relative;
+        width: 100%;
+        height: 120vh;
+        background: purple;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .cs__pic{
+        position: relative;
+        top: 10px;
+        width: 90%;
+        height: 250px;
+        border-radius: 40px;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+    }
+    .cs__label{
+        position: relative;
+        text-align: center;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

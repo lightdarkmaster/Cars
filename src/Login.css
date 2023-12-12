@@ -1,0 +1,104 @@
+.login{
+    box-sizing: border-box;
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://eskipaper.com/images/2014-car-wallpapers-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    padding: 10px;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+    width: 25%;
+    height: 400px;
+    box-shadow: 1px 2px 2px 2px rgba(247, 162, 4, 0.201);
+    border-radius: 30px;
+    border: 1px solid grey;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    padding: 10px;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+.it{
+    color: orange;
+}
+.login__input{
+    width: 80%;
+    height: 30px;
+    border-radius: 10px;
+    padding: 5px;
+    border:0;
+}
+.login__button{
+    background: red;
+    color: white;
+    width: 84%;
+    height: 35px;
+    border-radius: 10px;
+    font-weight: 800;
+    border: 0;
+    cursor: pointer;
+}
+.login__button:hover{
+    background: rgb(255, 77, 77);
+}
+.link{
+    list-style: none;
+    color: white;
+    font-weight: 500;
+}
+.logo{
+    width: 15%;
+}
+.logo__github{
+    width: 12%;
+}
+
+@media (min-width: 300px) and (max-width: 900px) {
+    .login{
+        font-size: 15px;
+        height: 80vh;
+    }
+    h2{
+        font-size: 30px;;
+    }
+    .container{
+        position: relative;
+        top: 100px;
+        width: 90%;
+        height: 400px;
+        box-shadow: 1px 2px 2px 2px rgba(247, 162, 4, 0.201);
+        border-radius: 30px;
+        border: 1px solid grey;
+        text-align: center;
+        margin: auto;
+        justify-content: center;
+        padding: 10px;
+        backdrop-filter: blur(5px);
+        overflow: hidden;
+    }
+    .login__input{
+        width: 90%;
+        height: 30px;
+        border-radius: 10px;
+        padding: 5px;
+        border:0;
+    }
+    .login__button{
+        background: red;
+        color: white;
+        width: 90%;
+        height: 40px;
+        border-radius: 10px;
+        font-weight: 800;
+        border: 0;
+    }
+    .it{
+        font-size: 30px;
+    }
+}
